@@ -26,3 +26,8 @@ python3 -m unittest discover -p "*_test.py"
 
 ### Benchmark
 I wrote a simple benchmark script to showcase the speed difference. I generate 275,814 exchange rates across 7 decentralized exchanges and 199 cryptocurrencies. The graph based service is ~400x faster in my one benchmark!
+
+To run the benchmarking script:
+```python
+python3 benchmark.py
+```
